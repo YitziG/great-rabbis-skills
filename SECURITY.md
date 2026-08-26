@@ -16,4 +16,6 @@ Security fixes target the current `main` branch. Published site behavior should 
 
 Security issues include dependency vulnerabilities with a reachable impact, unsafe generated HTML, exposed private data, malicious installation behavior, or a skill that directs an agent to bypass authorization or safety boundaries.
 
+The deployed site is static output. Its Docusaurus build runs only against reviewed repository content: the project accepts no uploads, remote image input, or other untrusted build-time files, and the repository intentionally contains no tracked raster media. This boundary limits exposure to parser vulnerabilities in build-only transitive dependencies while upstream fixes are unavailable; it is not a waiver, and those dependencies should be updated as soon as compatible fixes are published.
+
 Questions about a teaching, translation, source interpretation, or religious practice are not security reports; use a normal issue without personal or sensitive information.
