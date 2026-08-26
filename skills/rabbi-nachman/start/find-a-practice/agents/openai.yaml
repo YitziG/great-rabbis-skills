@@ -1,0 +1,7 @@
+interface:
+  display_name: "Find a Practice"
+  short_description: "Route a stuck moment to one useful practice"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $find-a-practice to choose the smallest fitting Nekudah practice for what I am facing."
+policy:
+  allow_implicit_invocation: false

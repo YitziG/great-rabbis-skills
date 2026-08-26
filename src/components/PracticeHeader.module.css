@@ -1,0 +1,80 @@
+.header {
+  margin: 0 0 2.5rem;
+  padding: 1.5rem 0 2rem;
+  border-bottom: 1px solid rgba(244, 196, 96, 0.22);
+}
+
+.eyebrow {
+  margin-bottom: 0.75rem;
+  color: #f1bc55;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.eyebrow a {
+  color: inherit;
+}
+
+.description {
+  max-width: 48rem;
+  margin: 0;
+  color: #c4cfda;
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.meta > span {
+  flex: 0 0 auto;
+  color: #e8dcc1;
+  font-size: 0.82rem;
+}
+
+.copyButton {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 0.8rem;
+  border: 1px solid rgba(206, 220, 233, 0.18);
+  border-radius: 0.35rem;
+  background: rgba(5, 19, 35, 0.72);
+  color: #f5f1e7;
+  cursor: pointer;
+}
+
+.copyButton code {
+  overflow: hidden;
+  color: inherit;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.copyButton svg {
+  flex: 0 0 auto;
+}
+
+.copyStatus {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .meta {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

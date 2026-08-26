@@ -1,0 +1,7 @@
+interface:
+  display_name: "Responsible Imagination"
+  short_description: "Give a creative vision an ethical form"
+  brand_color: "#34788F"
+  default_prompt: "Use $responsible-imagination to open a larger possibility and translate it into an ethical practical form."
+policy:
+  allow_implicit_invocation: false

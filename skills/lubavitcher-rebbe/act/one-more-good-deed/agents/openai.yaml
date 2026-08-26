@@ -1,0 +1,7 @@
+interface:
+  display_name: "One More Good Deed"
+  short_description: "Replace all-or-nothing with one real addition"
+  brand_color: "#9B2C3B"
+  default_prompt: "Use $one-more-good-deed to turn this improvement goal into one complete addition today."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mission From Here"
+  short_description: "Find the responsibility unique to this moment"
+  brand_color: "#9B2C3B"
+  default_prompt: "Use $mission-from-here to find the concrete responsibility and first useful deed available here."
+policy:
+  allow_implicit_invocation: true

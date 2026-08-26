@@ -1,0 +1,7 @@
+interface:
+  display_name: "Nekudah Tovah"
+  short_description: "Find concrete good points before planning"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $nekudah-tovah to identify real strengths and progress before we plan."
+policy:
+  allow_implicit_invocation: true

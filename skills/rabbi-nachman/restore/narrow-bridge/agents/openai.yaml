@@ -1,0 +1,7 @@
+interface:
+  display_name: "Narrow Bridge"
+  short_description: "Take a courageous step with guardrails"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $narrow-bridge to name the fear and choose a reversible next step with stop conditions."
+policy:
+  allow_implicit_invocation: true

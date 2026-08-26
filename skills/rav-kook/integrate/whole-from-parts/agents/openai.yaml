@@ -1,0 +1,7 @@
+interface:
+  display_name: "Whole From Parts"
+  short_description: "Build a wider frame from competing truths"
+  brand_color: "#34788F"
+  default_prompt: "Use $whole-from-parts to recover the valid concerns and build a wider decision frame."
+policy:
+  allow_implicit_invocation: true

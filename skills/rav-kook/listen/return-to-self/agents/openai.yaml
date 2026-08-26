@@ -1,0 +1,7 @@
+interface:
+  display_name: "Return To Self"
+  short_description: "Separate authentic direction from borrowed pressure"
+  brand_color: "#34788F"
+  default_prompt: "Use $return-to-self to help me examine whether this path is genuinely mine."
+policy:
+  allow_implicit_invocation: false

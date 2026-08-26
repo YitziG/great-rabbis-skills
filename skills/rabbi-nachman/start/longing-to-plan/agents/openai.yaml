@@ -1,0 +1,7 @@
+interface:
+  display_name: "Longing to Plan"
+  short_description: "Turn an aspiration into bounded action"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $longing-to-plan to turn this aspiration into a concrete outcome and next action."
+policy:
+  allow_implicit_invocation: true

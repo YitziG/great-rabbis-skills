@@ -1,0 +1,39 @@
+{
+  "name": "great-rabbis-skills",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Source-grounded agent practices inspired by Rabbi Nachman, the Lubavitcher Rebbe, and Rav Kook.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YitziG/great-rabbis-skills"
+  },
+  "license": "MIT",
+  "scripts": {
+    "site:sync": "node scripts/build-site-content.mjs",
+    "dev": "npm run site:sync && docusaurus start",
+    "build": "npm run site:build",
+    "site:build": "npm run site:sync && docusaurus build",
+    "serve": "docusaurus serve",
+    "test": "node --test scripts/*.test.mjs",
+    "validate": "npm test && node scripts/validate.mjs && npm run site:build"
+  },
+  "devDependencies": {
+    "yaml": "^2.9.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/plugin-content-docs": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
+    "@fontsource/cormorant-garamond": "^5.2.8",
+    "@fontsource/inter": "^5.2.8",
+    "@mdx-js/react": "^3.1.1",
+    "@phosphor-icons/react": "^2.1.10",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

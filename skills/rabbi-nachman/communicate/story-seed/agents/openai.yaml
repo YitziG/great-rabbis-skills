@@ -1,0 +1,7 @@
+interface:
+  display_name: "Story Seed"
+  short_description: "Reframe a problem with an original parable"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $story-seed to create a clearly labeled original parable that opens practical options."
+policy:
+  allow_implicit_invocation: false

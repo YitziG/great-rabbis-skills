@@ -1,0 +1,7 @@
+interface:
+  display_name: "Bottom-Line Action"
+  short_description: "Turn a worthy idea into one owned action"
+  brand_color: "#9B2C3B"
+  default_prompt: "Use $bottom-line-action to turn this discussion into one concrete owned deed."
+policy:
+  allow_implicit_invocation: true

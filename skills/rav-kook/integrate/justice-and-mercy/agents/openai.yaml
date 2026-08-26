@@ -1,0 +1,7 @@
+interface:
+  display_name: "Justice And Mercy"
+  short_description: "Hold a fair standard with humane context"
+  brand_color: "#34788F"
+  default_prompt: "Use $justice-and-mercy to design a principled decision that holds the rule and human context together."
+policy:
+  allow_implicit_invocation: true

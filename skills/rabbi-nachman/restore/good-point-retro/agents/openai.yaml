@@ -1,0 +1,7 @@
+interface:
+  display_name: "Good Point Retro"
+  short_description: "Run a blameless renewal-focused retrospective"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $good-point-retro to retain what worked, repair one thing, and begin the next experiment."
+policy:
+  allow_implicit_invocation: true

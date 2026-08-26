@@ -1,0 +1,84 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/600.css";
+
+:root {
+  --ifm-color-primary: #dba844;
+  --ifm-color-primary-dark: #c79532;
+  --ifm-color-primary-darker: #bb8c2f;
+  --ifm-color-primary-darkest: #9a7427;
+  --ifm-color-primary-light: #e1b35d;
+  --ifm-color-primary-lighter: #e4b968;
+  --ifm-color-primary-lightest: #edce8f;
+  --ifm-font-family-base: "Inter", system-ui, sans-serif;
+  --ifm-heading-font-family: "Cormorant Garamond", Georgia, serif;
+  --ifm-code-font-size: 92%;
+  --ifm-navbar-height: 4.7rem;
+  --ifm-background-color: #07172a;
+  --ifm-background-surface-color: #0b1d32;
+}
+
+html[data-theme="dark"] {
+  --ifm-background-color: #07172a;
+  --ifm-background-surface-color: #0b1d32;
+  --ifm-font-color-base: #d7dfe6;
+  --ifm-navbar-background-color: #061426;
+  --ifm-footer-background-color: #04101f;
+  --ifm-toc-border-color: rgba(222, 231, 239, 0.13);
+}
+
+body {
+  letter-spacing: -0.01em;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(221, 230, 238, 0.12);
+  box-shadow: none;
+}
+
+.navbar__brand {
+  margin-inline-end: 3rem;
+}
+
+.navbar__title {
+  color: #f7ead3;
+  font-size: 0.96rem;
+  letter-spacing: 0.21em;
+}
+
+.navbar__link {
+  color: #aebac5;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  color: #f4c15b;
+}
+
+.theme-doc-markdown h1,
+.theme-doc-markdown h2,
+.theme-doc-markdown h3 {
+  color: #f7ecda;
+  font-weight: 600;
+}
+
+.theme-doc-markdown h1 {
+  font-size: clamp(2.8rem, 5vw, 4.4rem);
+}
+
+.theme-doc-markdown p,
+.theme-doc-markdown li {
+  line-height: 1.75;
+}
+
+.footer {
+  border-top: 1px solid rgba(221, 230, 238, 0.1);
+}
+
+code {
+  border-color: rgba(224, 232, 239, 0.16);
+}

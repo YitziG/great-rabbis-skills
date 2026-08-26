@@ -1,0 +1,42 @@
+{
+  "name": "great-rabbis-skills",
+  "version": "0.2.0",
+  "description": "Source-grounded agent practices inspired by Rabbi Nachman, the Lubavitcher Rebbe, and Rav Kook.",
+  "author": {
+    "name": "Yitzi G"
+  },
+  "repository": "https://github.com/YitziG/great-rabbis-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "jewish-thought",
+    "rabbinic-wisdom",
+    "reflection",
+    "planning",
+    "renewal"
+  ],
+  "skills": [
+    "./skills/rabbi-nachman/start/find-a-practice",
+    "./skills/rabbi-nachman/start/begin-again",
+    "./skills/rabbi-nachman/start/longing-to-plan",
+    "./skills/rabbi-nachman/steady/hitbodedut-brief",
+    "./skills/rabbi-nachman/steady/nekudah-tovah",
+    "./skills/rabbi-nachman/steady/simple-path",
+    "./skills/rabbi-nachman/restore/narrow-bridge",
+    "./skills/rabbi-nachman/restore/simchah-check",
+    "./skills/rabbi-nachman/restore/good-point-retro",
+    "./skills/rabbi-nachman/communicate/story-seed",
+    "./skills/lubavitcher-rebbe/orient/mission-from-here",
+    "./skills/lubavitcher-rebbe/act/bottom-line-action",
+    "./skills/lubavitcher-rebbe/act/one-more-good-deed",
+    "./skills/lubavitcher-rebbe/reach/reach-the-one",
+    "./skills/lubavitcher-rebbe/multiply/make-a-lamplighter",
+    "./skills/lubavitcher-rebbe/multiply/use-the-medium",
+    "./skills/rav-kook/listen/return-to-self",
+    "./skills/rav-kook/listen/fourfold-song",
+    "./skills/rav-kook/integrate/whole-from-parts",
+    "./skills/rav-kook/integrate/justice-and-mercy",
+    "./skills/rav-kook/renew/root-cause-return",
+    "./skills/rav-kook/create/responsible-imagination"
+  ]
+}

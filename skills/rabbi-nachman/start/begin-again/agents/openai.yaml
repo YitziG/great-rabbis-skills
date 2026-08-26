@@ -1,0 +1,7 @@
+interface:
+  display_name: "Begin Again"
+  short_description: "Restart a stalled task with one useful slice"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $begin-again to restart this stalled task as a small honest next step."
+policy:
+  allow_implicit_invocation: true

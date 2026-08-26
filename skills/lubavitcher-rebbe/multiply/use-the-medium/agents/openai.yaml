@@ -1,0 +1,7 @@
+interface:
+  display_name: "Use The Medium"
+  short_description: "Adapt a mission to technology without distortion"
+  brand_color: "#9B2C3B"
+  default_prompt: "Use $use-the-medium to adapt this work to the channel while preserving its substance and safety."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Simple Path"
+  short_description: "Reduce a plan while preserving its invariants"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $simple-path to simplify this plan without dropping the things that must stay true."
+policy:
+  allow_implicit_invocation: true

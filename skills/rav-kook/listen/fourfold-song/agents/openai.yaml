@@ -1,0 +1,7 @@
+interface:
+  display_name: "Fourfold Song"
+  short_description: "Hear a decision at four connected scales"
+  brand_color: "#34788F"
+  default_prompt: "Use $fourfold-song to examine this decision across self, community, humanity, and world."
+policy:
+  allow_implicit_invocation: true

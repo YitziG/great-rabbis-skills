@@ -1,0 +1,53 @@
+[
+  {
+    "id": "rabbi-nachman",
+    "name": "Rabbi Nachman of Breslov",
+    "shortName": "Rabbi Nachman",
+    "kicker": "Skills for the narrow places.",
+    "tagline": "Find the living point and begin again.",
+    "summary": "Practices of renewal, good points, courage, simplicity, private reflection, and story.",
+    "accent": "#F2BD58",
+    "surface": "#07172A",
+    "glow": "#1D4868",
+    "stages": [
+      { "id": "start", "name": "Start", "summary": "Begin from the true state, keep the evidence, and choose one honest move." },
+      { "id": "steady", "name": "Steady", "summary": "Find what is alive, remove excess machinery, and make room for attention." },
+      { "id": "restore", "name": "Restore", "summary": "Meet fear, fatigue, and failure without pretending that repair is complete." },
+      { "id": "communicate", "name": "Communicate", "summary": "Use a different form when ordinary explanation cannot open the next possibility." }
+    ]
+  },
+  {
+    "id": "lubavitcher-rebbe",
+    "name": "The Lubavitcher Rebbe",
+    "shortName": "The Rebbe",
+    "kicker": "Make the idea practical.",
+    "tagline": "Find the mission here, then bring it into action.",
+    "summary": "Practices of situated responsibility, concrete deeds, dignified outreach, capability, and constructive use of technology.",
+    "accent": "#FFB56B",
+    "surface": "#241016",
+    "glow": "#7B2737",
+    "stages": [
+      { "id": "orient", "name": "Orient", "summary": "Locate the responsibility made possible by this person, place, and moment." },
+      { "id": "act", "name": "Act", "summary": "Translate a worthy idea into a bounded deed with an owner and evidence." },
+      { "id": "reach", "name": "Reach", "summary": "Begin with one person's dignity and agency before thinking in audiences." },
+      { "id": "multiply", "name": "Multiply", "summary": "Use tools and handoffs so constructive capability can travel farther." }
+    ]
+  },
+  {
+    "id": "rav-kook",
+    "name": "Rav Kook",
+    "shortName": "Rav Kook",
+    "kicker": "Let the parts become a whole.",
+    "tagline": "Return to the source, widen the frame, and create.",
+    "summary": "Practices of authentic return, multiple scales of belonging, integration, principled balance, and responsible imagination.",
+    "accent": "#7FD3D8",
+    "surface": "#071D24",
+    "glow": "#226C75",
+    "stages": [
+      { "id": "listen", "name": "Listen", "summary": "Recover an authentic direction and hear the decision at more than one scale." },
+      { "id": "integrate", "name": "Integrate", "summary": "Preserve valid differences while building a wider and more truthful frame." },
+      { "id": "renew", "name": "Renew", "summary": "Repair recurring failure by returning the work to a healthy source." },
+      { "id": "create", "name": "Create", "summary": "Give imagination an ethical, practical form that can meet reality." }
+    ]
+  }
+]

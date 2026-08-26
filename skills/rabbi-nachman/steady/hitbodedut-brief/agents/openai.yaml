@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hitbodedut Brief"
+  short_description: "Guide a structured off-chat reflection"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $hitbodedut-brief to guide an off-chat reflection without asking me to share the answers."
+policy:
+  allow_implicit_invocation: false

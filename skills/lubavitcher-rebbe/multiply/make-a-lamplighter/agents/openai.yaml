@@ -1,0 +1,7 @@
+interface:
+  display_name: "Make A Lamplighter"
+  short_description: "Turn expert help into transferable capability"
+  brand_color: "#9B2C3B"
+  default_prompt: "Use $make-a-lamplighter to turn this expert-dependent process into a safe capability handoff."
+policy:
+  allow_implicit_invocation: true

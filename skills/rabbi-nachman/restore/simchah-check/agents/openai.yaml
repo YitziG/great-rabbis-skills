@@ -1,0 +1,7 @@
+interface:
+  display_name: "Simchah Check"
+  short_description: "Add honest lightness to difficult work"
+  brand_color: "#C79B3B"
+  default_prompt: "Use $simchah-check to find one modest source of energy or play in this difficult work."
+policy:
+  allow_implicit_invocation: false

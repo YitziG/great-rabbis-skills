@@ -1,0 +1,7 @@
+interface:
+  display_name: "Reach The One"
+  short_description: "Design outreach around one person's dignity"
+  brand_color: "#9B2C3B"
+  default_prompt: "Use $reach-the-one to redesign this outreach around one real person's benefit and agency."
+policy:
+  allow_implicit_invocation: true

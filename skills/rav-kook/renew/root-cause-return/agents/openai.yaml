@@ -1,0 +1,7 @@
+interface:
+  display_name: "Root-Cause Return"
+  short_description: "Repair recurring failure at its source"
+  brand_color: "#34788F"
+  default_prompt: "Use $root-cause-return to trace this recurring failure to its source condition and design a real repair."
+policy:
+  allow_implicit_invocation: true
