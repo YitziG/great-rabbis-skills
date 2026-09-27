@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "fingerprint": "c8e04776a8fa1d7f115ad2e9fb41f9d9a1550a4f89d3e514227c7e14a3fbc868",
+  "sourceCommit": "4240a0cb231671c7be01863585fae25a0d92ee7d",
+  "files": {
+    "evals/practical-judgment/config.json": "5bc9ecf3f17b0c2913883a5931cfda109d538afb88fa836a4b35ddae698ea4b8",
+    "evals/practical-judgment/cases.json": "bed035205352d8c145fd9b15fb49b3fd2e2138ec72b4e598ee1f27d9afbe0d05",
+    "evals/practical-judgment/prompts/common.md": "e2557d09f9a94f0d0dfd0967231f2187c27a874ad7ed4e0fdc687abbb7341e73",
+    "evals/practical-judgment/prompts/generic.md": "d1cc732411043667f954ca2fea4142d1a0f0a5b96497c6c952f6d06fb5ebb0f9",
+    "skills/rabbi-nachman/start/begin-again/SKILL.md": "308f7e1c4d7676d02f28feefa2577e652770871dcb290d5cf47342784cb9f75c",
+    "evals/practical-judgment/prompts/begin-again-source.md": "e17d5497af98896d5d95ad871a1e750803c5c48e6aca9603937b79ed30311982",
+    "evals/practical-judgment/prompts/begin-again-neutral.md": "5a8f1472ddec6df865d6c0d6cf85a2f646023a2683bc4bc60a4048c92f7466c9",
+    "skills/lubavitcher-rebbe/act/bottom-line-action/SKILL.md": "fb31167a7b1ee06f7a0e0a77968ca708aac3eee9d8c4fa53a81222da6870955d",
+    "evals/practical-judgment/prompts/bottom-line-action-source.md": "74410978b7133821a286b3f059061eb58b12630877c01b4701815547f3b77094",
+    "evals/practical-judgment/prompts/bottom-line-action-neutral.md": "ad279c41df8e1ffb02f86d8e73918a18ba2e1adc823f7c78ebf66e00cbc79d03",
+    "skills/rav-kook/integrate/justice-and-mercy/SKILL.md": "b5c1fd2ac514ee75ee25f9bd06f92f8af70aaf6fcbe5d69cb1680d671113db1f",
+    "evals/practical-judgment/prompts/justice-and-mercy-source.md": "e3f2cd197fb66ce3965199a6b33750a82d148b0407c147ced30904c6d5b4bf60",
+    "evals/practical-judgment/prompts/justice-and-mercy-neutral.md": "82bfd0b3ef7cc26101f98237bbcccd87306754639873b2fe39fa428be499c292",
+    "evals/practical-judgment/PROTOCOL.md": "87b7f4cf41af1b005de67c83ed7754ee4869c18391514f62a3d27c756f6a66ec",
+    "evals/practical-judgment/CASE-AUTHORING.md": "022a0581ce8612414533d19c5149e2ee76bd8a7cc8711a7690864fea12187a59",
+    "runner:evaluation-lib.mjs": "622146f9bcd83e2d33e69caa968f1eb01750b7da2f26036f8f4fd17f889400df",
+    "runner:evaluate.mjs": "d4e3a0c6c3999fc4bc771de1f684c738ffb452ece75ce3e650f70cfd6745c783"
+  }
+}

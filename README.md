@@ -88,7 +88,7 @@ Every skill must:
 
 ## Evaluation
 
-The [practical judgment pilot](evals/practical-judgment/README.md) compares three existing practices with general decision guidance and source-context controls. Its protocol separates automated output ratings, source fidelity, and human outcomes. It is exploratory; repository validation does not establish skill effectiveness.
+The [September 2026 practical judgment pilot](evals/practical-judgment/results/2026-09-27/RESULTS.md) found no advantage over a strong generic checklist in automated ratings of three practices. The original skills scored 3.838/4 versus 3.884/4 for the checklist, a paired difference of −0.047. These synthetic cases and machine ratings do not establish human benefit or evaluate the full collection. The [frozen protocol and reproducible runner](evals/practical-judgment/README.md) separate output quality, source fidelity, and human outcomes.
 
 ## What this is not
 

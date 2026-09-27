@@ -2,6 +2,8 @@
 
 This pilot compares three existing skills with strong alternatives. It is an exploratory test on invented cases with automated grading. Read [PROTOCOL.md](PROTOCOL.md) before interpreting a score. Human effectiveness and scholarly source fidelity require separate studies.
 
+The [September 27 results](results/2026-09-27/RESULTS.md) report 899 completed and graded outputs from 900 attempted cells. All 180 primary comparison pairs are available. The original skills did not outperform the generic checklist. The report includes all observations, the frozen manifest, costs, exceptions, and limitations. A [preliminary source desk review](SOURCE-DESK-REVIEW.md) is available separately; qualified scholarly review remains outstanding.
+
 The public source skills are pinned by `sourceCommit` in [config.json](config.json). [cases.json](cases.json) contains public synthetic scenarios and evaluator notes. Generator requests include only the scenario, never those notes or the expected-use label. The [case-authoring record](CASE-AUTHORING.md) identifies how the cases were produced.
 
 ## Run
