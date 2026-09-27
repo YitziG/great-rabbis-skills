@@ -86,6 +86,10 @@ Every skill must:
 - Distinguish a documented source theme from the repository author's modern workflow design.
 - Avoid invented quotations, Hebrew, translations, source locations, and claims of spiritual authority.
 
+## Evaluation
+
+The [September 2026 practical judgment pilot](evals/practical-judgment/results/2026-09-27/RESULTS.md) found no advantage over a strong generic checklist in automated ratings of three practices. The original skills scored 3.838/4 versus 3.884/4 for the checklist, a paired difference of −0.047. These synthetic cases and machine ratings do not establish human benefit or evaluate the full collection. The [frozen protocol and reproducible runner](evals/practical-judgment/README.md) separate output quality, source fidelity, and human outcomes.
+
 ## What this is not
 
 - Not a persona for Rabbi Nachman, the Rebbe, Rav Kook, or any other religious figure.

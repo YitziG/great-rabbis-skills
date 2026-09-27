@@ -1,0 +1,32 @@
+{
+  "protocolCommit": "d8c3664eab1bbad59dedbd21aaf798787e15c6a5",
+  "sourceCommit": "4240a0cb231671c7be01863585fae25a0d92ee7d",
+  "fingerprint": "c8e04776a8fa1d7f115ad2e9fb41f9d9a1550a4f89d3e514227c7e14a3fbc868",
+  "firstRequestAt": "2026-09-27T08:44:58.477Z",
+  "lastRequestFinishedAt": "2026-09-27T09:08:26.762Z",
+  "apiRequestAttempts": 1799,
+  "chargedBudgetUsd": 5.232291749999991,
+  "budgetUsd": 25,
+  "costBasis": "Conservative standard-rate estimate, cached input at full rate, unresolved requests at full reservation; not a provider invoice.",
+  "exceptions": [
+    {
+      "phase": "run",
+      "cell": {
+        "id": "241d9a127f23cb28cc0c4123",
+        "caseId": "AC10",
+        "practice": "bottom-line-action",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "repeat": 0,
+        "condition": "A"
+      },
+      "state": "uncertain",
+      "reservedUsd": 0.0142095,
+      "chargedUsd": 0.0142095,
+      "startedAt": "2026-09-27T08:50:08.499Z",
+      "finishedAt": "2026-09-27T08:50:48.397Z"
+    }
+  ],
+  "humanReview": "Not performed",
+  "sourceReview": "Preliminary AI desk review only; no scholarly certification",
+  "protocolDeviations": "No changes to frozen inputs, scoring code, or model settings. After a provider uncertainty the operator resumed only unattempted cells; uncertain attempts were not repeated."
+}

@@ -5,3 +5,6 @@ build/
 .generated/
 .vercel
 .env*
+
+# Local evaluation output and spend ledgers; publish only reviewed reports.
+eval-runs/
