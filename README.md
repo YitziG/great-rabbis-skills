@@ -86,6 +86,10 @@ Every skill must:
 - Distinguish a documented source theme from the repository author's modern workflow design.
 - Avoid invented quotations, Hebrew, translations, source locations, and claims of spiritual authority.
 
+## Evaluation
+
+The [practical judgment pilot](evals/practical-judgment/README.md) compares three existing practices with general decision guidance and source-context controls. Its protocol separates automated output ratings, source fidelity, and human outcomes. It is exploratory; repository validation does not establish skill effectiveness.
+
 ## What this is not
 
 - Not a persona for Rabbi Nachman, the Rebbe, Rav Kook, or any other religious figure.

@@ -1,0 +1,56 @@
+{
+  "version": "practical-judgment-pilot-v1",
+  "sourceCommit": "4240a0cb231671c7be01863585fae25a0d92ee7d",
+  "seed": 27092026,
+  "budgetUsd": 25,
+  "models": [
+    {
+      "id": "gpt-5.4-2026-03-05",
+      "inputUsdPerMillion": 2.5,
+      "outputUsdPerMillion": 15
+    },
+    {
+      "id": "gpt-5.4-mini-2026-03-17",
+      "inputUsdPerMillion": 0.75,
+      "outputUsdPerMillion": 4.5
+    }
+  ],
+  "judge": {
+    "id": "gpt-5.4-mini-2026-03-17",
+    "inputUsdPerMillion": 0.75,
+    "outputUsdPerMillion": 4.5
+  },
+  "repeats": 3,
+  "maxOutputTokens": 1536,
+  "judgeMaxOutputTokens": 800,
+  "reasoningEffort": "none",
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "commonPromptPath": "evals/practical-judgment/prompts/common.md",
+  "genericPromptPath": "evals/practical-judgment/prompts/generic.md",
+  "practices": {
+    "begin-again": {
+      "skillPath": "skills/rabbi-nachman/start/begin-again/SKILL.md",
+      "sourceContextPath": "evals/practical-judgment/prompts/begin-again-source.md",
+      "neutralPath": "evals/practical-judgment/prompts/begin-again-neutral.md",
+      "skillSha256": "308f7e1c4d7676d02f28feefa2577e652770871dcb290d5cf47342784cb9f75c"
+    },
+    "bottom-line-action": {
+      "skillPath": "skills/lubavitcher-rebbe/act/bottom-line-action/SKILL.md",
+      "sourceContextPath": "evals/practical-judgment/prompts/bottom-line-action-source.md",
+      "neutralPath": "evals/practical-judgment/prompts/bottom-line-action-neutral.md",
+      "skillSha256": "fb31167a7b1ee06f7a0e0a77968ca708aac3eee9d8c4fa53a81222da6870955d"
+    },
+    "justice-and-mercy": {
+      "skillPath": "skills/rav-kook/integrate/justice-and-mercy/SKILL.md",
+      "sourceContextPath": "evals/practical-judgment/prompts/justice-and-mercy-source.md",
+      "neutralPath": "evals/practical-judgment/prompts/justice-and-mercy-neutral.md",
+      "skillSha256": "b5c1fd2ac514ee75ee25f9bd06f92f8af70aaf6fcbe5d69cb1680d671113db1f"
+    }
+  }
+}
